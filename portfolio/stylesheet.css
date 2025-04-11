@@ -1,0 +1,36 @@
+header{
+    padding:30px;
+    background-color: rgb(138, 137, 136);
+    border: 8px;
+    color: white;
+    text-align: center;
+   
+   
+    
+}
+div{
+    background-color:rgb(249, 252, 252);
+    margin: 0.25;
+    border-radius: 10px;
+    margin-left: 20px;
+    padding-bottom: 20px;
+
+
+}
+h2,h3{
+    margin-left: 30px;
+    padding-top: 20px;
+    padding-bottom: 5px;
+    
+
+}
+body{
+    background-color: rgb(237, 237, 236);
+    width: auto;
+    top: 0;
+}
+p{
+    margin-left: 20px;
+
+}
+
