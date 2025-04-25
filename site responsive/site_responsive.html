@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Site de phyllipe et Ali</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <header>
+        <h1>Site de Phyllipe et Ali </h1>
+        <nav>
+            <button><a href="#">Accueil</a></button>
+            <button><a href="/contact.html">Contact</a></button>
+        </nav>
+    </header>
+  <!-- Barre de recherche -->
+  <div class="search-container">
+    <input type="text" id="searchInput" placeholder="Rechercher...">
+</div>
+
+<!-- Liste à filtrer -->
+<section id="content">
+    <h2>Articles</h2>
+    <div class="item" data-search="Electronique">
+        <h3>Categories</h3>
+        <p><a href="/produit.html">Electronique </a></p>
+    </div>
+   
+</section>
+
+<!-- Formulaire de contact (inchangé) -->
+<section id="contact">
+    <!-- ... (même formulaire que précédemment) ... -->
+</section>
+    <main>
+        <section>
+            <h2>Bienvenue</h2>
+            <p>Bienvenue sur notre Site d'exercice en groupe
+                renplire le formulaire pour tester notre travail
+            </p>
+        </section>
+
+        <section id="contact.html">
+            <h2>Contactez-moi</h2>
+            <form id="contactForm">
+                <input type="text" id="name" placeholder="Votre nom" required>
+                <input type="email" id="email" placeholder="Votre email" required>
+                <textarea id="message" placeholder="Votre message" required></textarea>
+                <button class="submit" type="submit">Envoyer</button>
+            </form>
+            <p id="confirmation"></p>
+        </section>
+    </main>
+
+    <footer>
+        <p>@2025 site de Ali et Oh </p>
+    </footer>
+
+    <script src="control.js"></script>
+</body>
+</html>
