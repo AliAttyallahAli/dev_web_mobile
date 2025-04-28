@@ -1,4 +1,4 @@
-/* Reset et polices */
+/* style de l'ensemble de la page  */
 * {
     margin: 0;
     padding: 0;
@@ -7,7 +7,7 @@
     border: 0;
 
 }
-
+/* style du corps de la page */
 body {
     line-height: 1.6;
     color: #333;
@@ -18,17 +18,20 @@ body {
     background: url('guera.jpg') no-repeat;
    
 }
+/* style de l'en-tête et du pied de page */
 
 header, footer ,h1{
     text-align: center;
     padding: 20px 0;
-    color: #f9f9f9;
+    color: black;
 }
+/* style de la barre de navigation */
 
 h1, h2,p{
     margin-bottom: 10px;
   
 }
+/* style des lien barre de navigation */
 
 nav a {
     margin: 0 10px;
@@ -36,12 +39,14 @@ nav a {
     color: black;
     
 }
+/* style de la barre de navigation au survol */
 nav a:hover{
     margin: 0 10px;
     text-decoration: none;
     color: white;
     transition: 0.06s;
 }
+/* style pour l'ensemble de la section */
 
 section {
     margin: 40px 0;
@@ -57,11 +62,13 @@ section.content {
     border-radius: 5px;
     box-shadow: 0 2px 5px rgba(0,0,0,0.1);
 }
+
 form {
     display: flex;
     flex-direction: column;
     gap: 15px;
 }
+/* style de la section contact */
 
 input, textarea {
     padding: 10px;
@@ -129,9 +136,17 @@ button.submit:hover{
 .item.hidden {
     display:contents;
 }
+/* Styles pour les images de l'arriere plan*/
 img{
     width: 100px;
     height: 100px;
     border-radius: 05%;
     margin-right: 20px;
+}
+div{
+    border: 1px solid #ddd;
+    border-radius: 4px;
+    padding: 10px;
+    margin: 10px 0;
+    background: rgb(224, 223, 223);
 }

@@ -1,8 +1,10 @@
-// Barre de recherche
+// Barre de recherche //
+// Fonction pour afficher/masquer les éléments en fonction de la recherche
 document.getElementById("searchInput").addEventListener("input", function(e) {
     const searchTerm = e.target.value.toLowerCase();
     const items = document.querySelectorAll(".item");
-
+// les elements qui contiennent la classe "item" sont ceux qui seront filtrés
+    // Parcours de chaque élément et vérification de la correspondance 
     items.forEach(item => {
         const text = item.getAttribute("data-search").toLowerCase();
         if (text.includes(searchTerm)) {
@@ -13,7 +15,7 @@ document.getElementById("searchInput").addEventListener("input", function(e) {
     });
 });
 
-// (Conservez le code existant pour le formulaire de contact)
+
 document.getElementById("contactForm").addEventListener("submit"), function(e) {
     e.preventDefault(); // Empêche le rechargement de la page
 
