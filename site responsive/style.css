@@ -29,6 +29,7 @@ header, footer ,h1{
 
 h1, h2,p{
     margin-bottom: 10px;
+    color: rgb(21, 20, 20);
   
 }
 /* style des lien barre de navigation */
@@ -43,7 +44,7 @@ nav a {
 nav a:hover{
     margin: 0 10px;
     text-decoration: none;
-    color: white;
+    color: rgb(72, 65, 65);
     transition: 0.06s;
 }
 /* style pour l'ensemble de la section */

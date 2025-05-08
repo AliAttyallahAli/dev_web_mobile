@@ -5,49 +5,43 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Calculatrice</title>
     <link rel="stylesheet" href="stylscal.css">
-    <style>
-       <div class="boutons">
-            <!-- Première ligne -->
-            <button class="special" onclick="ajouterCaractere('%')">%</button>
-            <button class="special" onclick="ajouterCaractere('(')">(</button>
-            <button class="special" onclick="ajouterCaractere(')')">)</button>
-            <button class="special" onclick="effacerTout()">CLS</button>
-            <button class="special" onclick="supprimer()">SUP</button>
-            
-            <!-- Deuxième ligne -->
-            <button onclick="ajouterCaractere('1')">1</button>
-            <button onclick="ajouterCaractere('2')">2</button>
-            <button onclick="ajouterCaractere('3')">3</button>
-            <button class="operateur" onclick="ajouterCaractere('/')">/</button>
-            
-            <!-- Troisième ligne -->
-            <button onclick="ajouterCaractere('4')">4</button>
-            <button onclick="ajouterCaractere('5')">5</button>
-            <button onclick="ajouterCaractere('6')">6</button>
-            <button class="operateur" onclick="ajouterCaractere('*')">×</button>
-            
-            <!-- Quatrième ligne -->
-            <button onclick="ajouterCaractere('7')">7</button>
-            <button onclick="ajouterCaractere('8')">8</button>
-            <button onclick="ajouterCaractere('9')">9</button>
-            <button class="operateur" onclick="ajouterCaractere('-')">-</button>
-            
-            <!-- Cinquième ligne -->
-            <button onclick="ajouterCaractere('.')">.</button>
-            <button onclick="ajouterCaractere('0')">0</button>
-            <button class="egal" onclick="calculer()">=</button>
-            <button class="operateur" onclick="ajouterCaractere('+')">+</button>
-        </div>
-    </style>
 </head>
 <body>
     <div class="calculatrice">
-        <div class="titre">Calculatrice</div>
+        <h2>calculatrice</h2>
         <input type="text" class="ecran" id="ecran" readonly>
-        <div class="boutons">
-           
-        
-    <script src="control.js">
-    </script>
+            <div class="boutons">
+                <button class="special" onclick="ajouterCaractere('%')">%</button>
+                <button class="special" onclick="ajouterCaractere('(')">(</button>
+                <button class="special" onclick="ajouterCaractere(')')">)</button>
+                <button class="special" onclick="effacerTout()">CLS</button>
+                <button class="special" onclick="supprimer()">SUP</button>
+            </div>  
+            <div class="boutons3">
+                <!-- Deuxième ligne -->
+                <button onclick="ajouterCaractere('1')">1</button>
+                <button onclick="ajouterCaractere('2')">2</button>
+                <button onclick="ajouterCaractere('3')">3</button>
+                <button class="operateur" onclick="ajouterCaractere('/')">/</button>
+
+                <!-- Troisième ligne -->
+                <button onclick="ajouterCaractere('4')">4</button>
+                <button onclick="ajouterCaractere('5')">5</button>
+                <button onclick="ajouterCaractere('6')">6</button>
+                <button class="operateur" onclick="ajouterCaractere('*')">×</button>
+
+                <!-- Quatrième ligne -->
+                <button onclick="ajouterCaractere('7')">7</button>
+                <button onclick="ajouterCaractere('8')">8</button>
+                <button onclick="ajouterCaractere('9')">9</button>
+                <button class="operateur" onclick="ajouterCaractere('-')">-</button>
+
+                <!-- Cinquième ligne -->
+                <button onclick="ajouterCaractere('.')">.</button>
+                <button onclick="ajouterCaractere('0')">0</button>
+                <button class="egal" onclick="calculer()">=</button>
+                <button class="operateur" onclick="ajouterCaractere('+')">+</button>
+            </div>
+            <script src="control.js"> </script>
 </body>
 </html>

@@ -40,7 +40,7 @@ body {
     background-color:rgb(250, 246, 246);
 }
 
-.bouton {
+.boutons{
     display: grid;
     grid-template-columns: repeat(5, auto);
     margin-bottom: 15px;
